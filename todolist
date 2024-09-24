@@ -1,0 +1,17 @@
+let count=0;
+function increaseCount(){
+    if(count<100){
+    count++;
+    document.getElementById("counter").innerText=count;
+    }
+}
+function herasuCount(){
+    if(count>-100){
+        count--;
+        document.getElementById("counter").innerText=count;
+    }
+}
+function risettoCount(){
+        count=0;
+        document.getElementById("counter").innerText=count;
+}
